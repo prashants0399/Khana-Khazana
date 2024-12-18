@@ -1,0 +1,42 @@
+
+#h1{
+    margin-left: 325px;
+}
+#h1 span {
+    font-size: 36px;
+    font-weight: bold;
+}
+.word1 { color: #FF5733; }
+.word2 { color: #33FF57; }
+.word3 { color: #3357FF; }
+.word4 { color: #FF33A1; }
+.word5 { color: #FFD700; }
+.word6 { color: #8A2BE2; }
+.word7 { color:#FF5733; }
+
+button{
+    font-weight: bold !important;
+}
+input{
+    width: 15rem;
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 10px;
+    color: g;
+    padding: 4px;
+}
+input:focus{
+    outline: none;
+}
+.food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem;
+
+}
+body::-webkit-scrollbar{
+    display: none ;
+}
